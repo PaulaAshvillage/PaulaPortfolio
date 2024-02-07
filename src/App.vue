@@ -1,20 +1,27 @@
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <header>
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/">paula</RouterLink>
-        <RouterLink to="/projects">projects</RouterLink>
-        <RouterLink to="/about">about</RouterLink>
-      </nav>
-    </div>
-  </header>
-
-  <RouterView />
+  <div class="content-wrapper">
+    <Header-layout />
+  </div>
 </template>
+<script>
+import HeaderLayout from '@/layouts/HeaderLayout.vue'
 
-<style scoped></style>
+export default {
+  components: {
+    HeaderLayout
+  }
+}
+</script>
+<style>
+@import url('./assets/main.css');
+@import url('./assets/base.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
+.content-wrapper {
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+  max-width: 80rem;
+}
+#app {
+  font-family: 'Poppins', Helvetica, sans-serif;
+}
+</style>
