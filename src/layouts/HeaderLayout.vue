@@ -12,7 +12,7 @@
 <style scoped>
 nav {
   padding-top: 2rem;
-  padding-right: 4rem;
+
   display: flex;
   justify-content: flex-end;
   gap: 2rem;
@@ -27,5 +27,10 @@ nav {
 #home-link {
   font-weight: 100;
   margin-right: auto;
+}
+@media (max-width: 600px) {
+  .router-link {
+    display: none;
+  }
 }
 </style>
