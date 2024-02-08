@@ -37,10 +37,11 @@ h1 {
   justify-content: start;
   align-items: center;
   gap: 0.75rem;
+  padding-bottom: 3rem;
 }
 img {
-  height: 1.8rem;
-  width: 1.8rem;
+  height: 2rem;
+  width: 2rem;
 }
 .link-wrapper {
   display: flex;
@@ -50,6 +51,7 @@ img {
 }
 .project-link {
   font-size: 1.25rem;
+  font-weight: 300;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,5 +66,17 @@ img {
 #link-orange {
   color: var(--color-orange);
   border: 2px solid var(--color-orange);
+}
+@media (max-width: 600px) {
+  .content-wrapper {
+    padding-inline: 0.75rem;
+  }
+  .project-link {
+    font-size: 1rem;
+    font-weight: 200;
+    gap: 0.25rem;
+
+    border-radius: 1.5rem;
+  }
 }
 </style>
