@@ -81,12 +81,9 @@ img {
   }
   .headline-wrapper {
     padding-bottom: 0;
-    flex-direction: column;
+    font-size: 0.75rem;
   }
-  img {
-    height: 4rem;
-    width: 4rem;
-  }
+
   .link-wrapper {
     display: flex;
     flex-direction: column;
@@ -116,6 +113,7 @@ img {
   }
   #link-3 {
     align-self: center;
+    padding-block: 1rem;
   }
 }
 </style>
