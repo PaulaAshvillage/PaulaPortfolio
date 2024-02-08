@@ -26,8 +26,4 @@ export default {
   font-family: 'Poppins', Helvetica, sans-serif;
   text-align: center;
 }
-@media (max-width: 600px) {
-  .content-wrapper {
-  }
-}
 </style>
