@@ -21,7 +21,13 @@ export default {
   padding-inline: 1.5rem;
   max-width: 80rem;
 }
+
 #app {
   font-family: 'Poppins', Helvetica, sans-serif;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .content-wrapper {
+  }
 }
 </style>

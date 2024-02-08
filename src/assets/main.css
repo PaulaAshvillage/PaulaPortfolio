@@ -64,15 +64,3 @@ h6 {
 #__next {
   isolation: isolate;
 }
-
-#app {
-  font-family: 'Poppins', Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-}
-.content-wrapper {
-  margin-inline: auto;
-  padding-inline: 1.5rem;
-  max-width: 80rem;
-}
