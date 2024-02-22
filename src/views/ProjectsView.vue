@@ -5,22 +5,38 @@
       <img src="../assets/heart.png" alt="heart icon" />
     </div>
     <div class="link-wrapper">
-      <a id="link-1" class="project-link" href="https://gmx.de" target="_blank"
+      <a
+        id="link-1"
+        class="project-link"
+        href="https://github.com/coding-bootcamps-eu/final-project-tz-earlybirds"
+        target="_blank"
         >MealPlan App <img src="../assets/link-purple.png" alt="link icon in purple"
       /></a>
-      <a id="link-2" class="project-link" href="https://gmx.de" target="_blank"
+      <a
+        id="link-2"
+        class="project-link"
+        href="https://github.com/PaulaAshvillage/ToDoApp"
+        target="_blank"
         >To do App <img src="../assets/link-orange.png" alt="link icon in orange"
       /></a>
     </div>
     <div class="link-wrapper">
-      <a id="link-3" class="project-link" href="https://gmx.de" target="_blank"
+      <a
+        id="link-3"
+        class="project-link"
+        href="https://github.com/PaulaAshvillage/Bandpage-picus"
+        target="_blank"
         >Bandpage Käpt'n Picus<img src="../assets/link-orange.png" alt="link icon in orange"
       /></a>
 
-      <a id="link-4" class="project-link" href="https://gmx.de" target="_blank"
+      <a
+        id="link-4"
+        class="project-link"
+        href="https://github.com/PaulaAshvillage/cv"
+        target="_blank"
         >CV Barrierefrei <img src="../assets/link-purple.png" alt="link icon in purple"
       /></a>
-      <a id="link-5" class="project-link" href="https://gmx.de" target="_blank"
+      <a id="link-5" class="project-link" href="https://github.com/PaulaAshvillage" target="_blank"
         >Git Hub <img src="../assets/link-orange.png" alt="link icon in orange"
       /></a>
     </div>
